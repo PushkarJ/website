@@ -19,7 +19,7 @@ disableKinds = ["taxonomy"]
 
 ignoreFiles = [ "(?:^|/)OWNERS$", "README[-]+[a-z]*\\.md", "^node_modules$", "content/en/docs/doc-contributor-tools" ]
 
-timeout = "180s"
+timeout = "1800s"
 
 # Highlighting config.
 pygmentsCodeFences = true
@@ -361,7 +361,7 @@ languageNameLatinScript = "Deutsch"
 
 [languages.hi]
 title = "Kubernetes"
-languageName = "हिन्दी (Hindi)"  
+languageName = "हिन्दी (Hindi)"
 weight = 6
 contentDir = "content/hi"
 languagedirection = "ltr"

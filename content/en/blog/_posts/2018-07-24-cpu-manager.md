@@ -5,6 +5,7 @@ date:  2018-07-24
 author: >
   [Balaji Subramaniam](mailto:balaji.subramaniam@intel.com) (Intel),
   [Connor Doyle](mailto:connor.p.doyle@intel.com) (Intel) 
+
 ---
 
 This blog post describes the [CPU Manager](/docs/tasks/administer-cluster/cpu-management-policies/), a beta feature in [Kubernetes](https://kubernetes.io/). The CPU manager feature enables better placement of workloads in the [Kubelet](/docs/reference/command-line-tools-reference/kubelet/), the Kubernetes node agent, by allocating exclusive CPUs to certain pod containers.
